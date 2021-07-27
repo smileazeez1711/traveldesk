@@ -1,0 +1,16 @@
+<div class="top" *ngIf="currentUser">
+    <div style="padding-top: 15px;padding-left: 12px;float: left;min-height: 40px;">
+        <img class="es-header-logo" src="../../../assets/images/favicon.ico">
+        <span class="es-logo-caption">            
+            GBS - Travel Desk
+        </span>
+    </div>
+    <div class="user-logout" style="padding-top: 18px; min-height: 40px;">
+        <a class="top-bar-icon top-bar-menu"></a>
+        <i style="font-size: 20px;" class="bi bi-person-bounding-box"></i>
+        <span style="font-weight: 500; margin-left: 5px;">            
+            Smile Azeez
+        </span>
+        <span class="top-bar-icon top-bar-logout" (click)="logOut()"></span>        
+    </div>
+</div>

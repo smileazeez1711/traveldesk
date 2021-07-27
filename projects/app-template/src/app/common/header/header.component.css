@@ -1,0 +1,45 @@
+.top {
+    position: fixed;
+    left: 0;
+    right: 41px;
+    top: 0;
+    height: 45px;
+    z-index: 100;
+    border-bottom: 1px solid #decaca;
+    background: #ffffff;
+  }
+  
+  .user-logout {
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .es-header-logo {
+    width: 20px;
+  }
+
+  .es-logo-caption {
+    margin-left: 5px;
+    vertical-align: middle;
+  }
+
+  .top-bar-user {    
+    width: 18px !important;
+    background-position: -109px 1px;
+    transform: scale(1.1) !important;
+  }
+
+  .top-bar-logout {
+    background-position: -128px 1px;
+    transform: scale(1.1) !important;
+  }
+
+  .top-bar-menu {   
+    width: 18px !important;
+    margin-right: 15px;
+    background-position: -68px 1px;
+    transform: scale(1.1) !important;
+  }
+
+  
