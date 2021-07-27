@@ -1,0 +1,79 @@
+
+<div class="row es-marging-top-15" style="padding-left: 6px;">
+    <div class="col-md-4 es-bb-content">
+        <kendo-chart>
+            <kendo-chart-title text="Units sold"></kendo-chart-title>
+        
+            <kendo-chart-category-axis>
+              <kendo-chart-category-axis-item
+                [categories]="['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul']"
+                [title]="{ text: 'Months' }"
+              >
+              </kendo-chart-category-axis-item>
+            </kendo-chart-category-axis>
+        
+            <kendo-chart-series-defaults [highlight]="{ inactiveOpacity: 0.3 }">
+            </kendo-chart-series-defaults>
+        
+            <kendo-chart-series>
+              <kendo-chart-series-item
+                type="area"
+                [data]="[123, 276, 310, 212, 240, 156, 98]"
+              >
+              </kendo-chart-series-item>
+              <kendo-chart-series-item
+                type="area"
+                [data]="[165, 210, 287, 144, 190, 167, 212]"
+              >
+              </kendo-chart-series-item>
+              <kendo-chart-series-item
+                type="area"
+                [data]="[56, 140, 195, 46, 123, 78, 95]"
+              >
+              </kendo-chart-series-item>
+            </kendo-chart-series>
+          </kendo-chart>
+    </div>    
+    <div class="col-md-8 es-bb-content">
+        <kendo-chart [title]="{ text: 'Cash flow' }">
+            <kendo-chart-series>
+              <kendo-chart-series-item
+                type="waterfall"
+                [data]="cashFlowData"
+                [color]="pointColor"
+                field="amount"
+                categoryField="period"
+                summaryField="summary"
+              >
+                <kendo-chart-series-item-labels format="C0" position="insideEnd">
+                </kendo-chart-series-item-labels>
+              </kendo-chart-series-item>
+            </kendo-chart-series>
+            <kendo-chart-value-axis>
+              <kendo-chart-value-axis-item [labels]="{ format: 'C0' }">
+              </kendo-chart-value-axis-item>
+            </kendo-chart-value-axis>
+          </kendo-chart>
+    </div>
+    <div class="col-md-4 es-bb-content">
+        <kendo-chart>
+            <kendo-chart-series>
+              <kendo-chart-series-item
+                type="donut"
+                [data]="data2"
+                categoryField="kind"
+                field="share"
+              >
+                <kendo-chart-series-item-labels
+                  [content]="labelContent"
+                  color="#fff"
+                  background="none"
+                >
+                </kendo-chart-series-item-labels>
+              </kendo-chart-series-item>
+            </kendo-chart-series>
+            <kendo-chart-legend [visible]="false"></kendo-chart-legend>
+          </kendo-chart>
+    </div>
+</div>
+
