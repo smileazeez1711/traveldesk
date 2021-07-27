@@ -1,0 +1,21 @@
+<div class="left" *ngIf="currentUser">
+  <ul class="left-side-menu-ul">
+    <li *ngFor="let menu of menuList">
+      <span class="left-icon">
+        <a [routerLink]="menu.Link" aria-hidden="true">
+          <i class="{{ menu.IconClass }}"></i>
+        </a>        
+      </span>
+    </li>
+  </ul>
+</div>
+
+<!-- <div class="left" *ngIf="currentUser">
+  <ul class="left-side-menu-ul">
+    <li *ngFor="let menu of menuList">
+        <a [routerLink]="menu.Link" aria-hidden="true">
+          <i class="left-bar-icon" [ngClass]="menu.Icon"></i>
+        </a>
+    </li>
+  </ul>
+</div> -->
