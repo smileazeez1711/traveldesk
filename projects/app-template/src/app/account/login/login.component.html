@@ -1,0 +1,48 @@
+<div>
+    <div class="row">
+        <div class="col-xs-12 loginImage">
+            <img src="../../../assets/images/login-bg.jpg" class="es-login-banner">
+        </div>
+    </div>
+    <div class="es-login">
+        <form>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12">
+                    <h1 class="es-login-header-box">Login with your credentials</h1>
+                </div>
+            </div>
+            <div class="row es-marging-top-10">
+                <div class="col-md-12 es-bb-content es-login-content">
+                    <div class="form-group">
+                        <es-textbox [class]="'es-input-control'" [(ngModel)]="entity.Username" [metaData]="entity.EntityMetaData" [placeholder]="'Username'"
+                            [formData]="entity" [caption]="'Enter username'" name="Username" [fieldName]="'Username'" (focus)="focusOnCredentials()" ngDefaultControl>
+                            <div sufix>
+                                <kendo-textbox-separator></kendo-textbox-separator>
+                                <i class="bi bi-person-fill input-icon"></i> 
+                            </div>
+                        </es-textbox>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 es-bb-content es-login-content">
+                    <div class="form-group">
+                        <es-textbox [class]="'es-input-control input-password'" [(ngModel)]="entity.Password" [metaData]="entity.EntityMetaData" [placeholder]="'Password'"
+                            [formData]="entity" [caption]="'Password'" name="Password" [fieldName]="'Password'" (focus)="focusOnCredentials()" ngDefaultControl>
+                            <div sufix>
+                                <kendo-textbox-separator></kendo-textbox-separator>
+                                <i class="bi bi-lock-fill input-icon"></i> 
+                            </div>
+                        </es-textbox>
+                    </div>
+                </div>
+            </div>
+            <div class="row es-marging-top-10">
+                <div class="col-md-12 es-bb-content es-login-content">
+                    <es-label [labelText]="'Invalid credentials!'" [visible]="invalidLogin" [class]="'es-invalid-login babu'"></es-label>
+                    <es-button1 [type]="'submit'" [primary]="true" [class]="'es-btn es-login-submit'" (click)="login()" [label]="'Login'"></es-button1>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,33 @@
+.es-login {
+    margin: 40px 0 0 0;
+    box-shadow: none;
+    right: 25px;
+    left: auto;
+    border-radius: 0;
+    padding: 0;
+    opacity: 1;
+    width: 320px;
+    bottom: auto;
+    height: auto!important;
+    z-index: 2;
+    top: 50px;
+    background-color: #fff;
+    position: absolute;
+}
+
+.es-login-header-box {
+    background: #133273;
+    padding: 12px 20px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.es-login-banner {
+    width: 100%;
+}
+
+.es-login-content {
+    padding-left: 30px;
+    padding-right: 30px;
+}
