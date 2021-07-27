@@ -1,0 +1,20 @@
+<es-form-header [iconClass]="'bi bi-clipboard-data'" [caption]="'Travel Requests'"> 
+    <div actions class="">
+        <span class="action-group"  (click)="createRequest()">
+            <i class="bi bi-plus-lg header-action-icon"></i>  
+            <span class="es-window-caption header-action-caption">Create Request</span>
+        </span>
+<!--         <span class="action-group"  (click)="ViewRequests()">
+            <i class="bi bi-card-list header-action-icon"></i>  
+            <span class="es-window-caption header-action-caption">View Request</span>
+        </span> -->
+        <span class="action-group">
+            <i class="bi bi-download header-action-icon"></i>  
+            <span class="es-window-caption header-action-caption">Export</span>
+        </span>
+    </div> 
+</es-form-header>
+
+<request-list></request-list>
+<request-create [visible]="showCreate"></request-create>
+<!-- <viewrequest [request]="requestID" [visible]="showView"></viewrequest> -->
