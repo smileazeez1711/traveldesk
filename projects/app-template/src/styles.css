@@ -1,0 +1,361 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+body {
+    line-height: 1.1 !important;
+}
+
+.es-body {
+    font-size: 14px !important;
+}
+
+.es-btn {
+    padding: 5px 20px;
+    height: 35px;
+    margin: 3px;
+    border-radius: 0 !important;
+    min-width: 105px !important;
+}
+
+.k-button-primary, .k-button.k-primary {
+    background-color: #133273 !important;
+    border-color: #133273 !important;
+    color: #fff;
+}
+
+.k-button {
+    box-shadow: 0 0px 0px -2px rgb(0 0 0 / 20%), 0 1px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%) !important;
+}
+
+.form-control:focus {
+    border-color: #3c8dbc;
+    box-shadow: none;
+    outline: 0;
+}
+
+.form-control:read-only {
+    background-color: #fff !important;
+}
+
+.es-bb-content {
+    position: relative;
+    min-height: 70px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+
+.es-bb-lable {
+    font-size: 13px;
+    padding-bottom: 4px;
+    padding-left: 2px;
+}
+
+.es-marging-top-10 {
+    margin-top: 10px;
+}
+
+.es-marging-top-15 {
+    margin-top: 15px;
+}
+
+.es-marging-top-25 {
+    margin-top: 25px;
+}
+
+.es-validation-container {
+    float: right;
+    display: grid;
+}
+
+.es-validation-message {
+    color: red;
+    float: right;
+    font-size: 12px;
+}
+
+.es-bb-align {
+    margin-top: 10px;
+}
+
+.es-login-submit {
+    margin-top: 10px !important;
+    margin: 5px 0px !important;
+    width: 100% !important;
+}
+
+.es-invalid-login {
+    margin-left: 2px;
+    color: red;
+}
+
+.es-entry-window {
+    box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.3);
+}
+
+.es-entry-window-title {
+    background-color: white;
+    height: 49.7px !important;
+    border-bottom: 1px solid #decaca;
+    padding-top: 25px;
+}
+
+.es-window-title-actionicons {
+    color: black !important;
+}
+
+.es-entry-winow-body {
+    min-height: 400px !important;
+}
+
+.es-fheader-icon {
+    font-size: 20px;
+    color: red;
+}
+
+.es-window-caption {
+    color: #212529;
+    font-weight: 500;
+    font-size: 17px;
+    margin-left: 8px;
+}
+
+.es-window-caption-colorr {
+    color: #f30e0ea6;
+}
+
+.form-dropdown-control {
+    width: 100%;
+}
+
+.input-password {
+    -webkit-text-security: disc;
+}
+
+.input-floating-label {
+    width: 100%;
+}
+
+.es-input-control {
+    border-bottom: 1px solid #3f51b5;
+}
+
+.k-textbox-container::after, .k-floating-label-container::after {
+    background-color: inherit;
+}
+
+.k-dropdown-wrap {
+    border-bottom: 1px solid #3f51b5 !important;
+}
+
+.k-dropdown-wrap:focus-within {
+    box-shadow: 0px 1px 0px 0px #3f51b5;
+}
+
+.k-textbox:focus-within {
+    box-shadow: 0px 1px 0px 0px #3f51b5;
+}
+
+.input-floating-label:focus {
+    height: 2px;
+    background-color: #9a9cac;
+}
+
+.input-icon {
+    color: #133273;
+    font-size: 16px;
+    padding: 5px;
+    -webkit-text-security: none;
+}
+
+.form-group {
+    line-height: 1.1 !important;
+}
+
+.es-entry-window>.k-window-content {
+    padding: 0 !important;
+}
+
+.window-body {
+    padding: 24px !important;
+    overflow: hidden;
+    min-height: 430px !important;
+}
+
+.window-footer {
+    text-align: end;
+    border-top: 1px solid #decaca;
+    padding: 10px 25px 15px 25px;
+}
+
+.btn-icon {
+    margin-right: 2px;
+}
+
+.validation-icon {
+    margin-right: 4px;
+}
+
+.es-dropdown {
+    margin-bottom: 3px;
+}
+
+.k-textarea {
+    background-color: inherit !important;
+    margin-bottom: 3px;
+}
+
+.k-textarea > .k-input {
+    padding: 3px 0 0 0 !important;
+}
+
+.k-textarea:focus-within {
+    border-bottom: 2px solid #3f51b5;
+    box-shadow: none;
+}
+
+::-webkit-scrollbar {
+    width: 0.4em !important;
+    height: 0.4em !important;
+  }
+   
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background-color: darkgrey !important;
+    outline: 1px solid slategrey !important;
+  }
+
+  .k-datepicker, .k-datetimepicker, .k-timepicker {
+      margin-bottom: 3px;
+  }
+
+  .k-datepicker, .k-datetimepicker, .k-timepicker>.k-picker-wrap:focus-within {
+    border-bottom-width: 2px;
+    border-color: #3f51b5;
+}
+
+.k-textbox-container.k-state-invalid::after, .k-floating-label-container.k-state-invalid::after {
+    background-color: transparent;
+}
+
+.k-picker-wrap {
+    border-bottom-color: #3f51b5 !important;
+}
+
+.checkbox-wrap {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.k-checkbox-label {
+    margin-left: 8px !important;
+}
+
+.es-checkbox-normal:checked {
+    border-color: #3f51b5 !important;
+    color: #ffffff;
+    background-color: #3f51b5 !important;
+}
+
+.es-checkbox-red:checked {
+    border-color: red !important;
+    color: #ffffff;
+    background-color: red !important;
+}
+
+.es-checkbox-green:checked {
+    border-color: green !important;
+    color: #ffffff;
+    background-color: green !important;
+}
+
+.es-checkbox-orange:checked {
+    border-color: orange !important;
+    color: #ffffff;
+    background-color: orange !important;
+}
+
+.k-notification-group {
+    z-index: 100000;
+    width: 100vw;
+}
+
+.k-notification-container {
+    display: block;
+    width: 50%;
+    margin: 0;
+}
+
+.k-notification {
+    border-radius: 0;
+    min-height: 45px;
+    padding: 12px 12px 0px 12px;
+    height: auto;
+}
+
+.k-dialog-wrapper {
+    z-index: 10025 !important;
+}
+
+.k-dialog {
+    z-index: 100000 !important;
+}
+
+.k-button, .k-widget, .k-window, .k-dialog {
+    border-radius: 0 !important;
+}
+
+.k-grid .k-grid-header-locked, .k-grid .k-grid-content-locked, .k-grid .k-grid-header-locked .k-header, .k-grid .k-grid-content-locked td {
+    border-right-color: transparent !important;
+    border-left-color: transparent !important;
+}
+
+.k-grid th, .k-grid td {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.k-grid td {
+    line-height: 1.5 !important;
+}
+
+.k-grid tr.k-state-selected > td {
+    background-color: #0058e90d !important;
+}
+
+.k-grid th {
+    border: none !important;
+    /* white-space: initial !important; */
+    min-height: 50px;
+    vertical-align: middle !important;
+}
+
+.header-action {
+    height: 30px;
+    padding-top: 5px;
+    float: right;
+}
+
+.header-action-icon {
+    font-size: 15px;
+    color: red;
+}
+
+.header-action-caption {
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 8px;
+    color: red;
+} 
+
+.action-group {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+a {
+    color: #3f51b5 !important;
+}
+
