@@ -1,0 +1,6 @@
+<app-header *ngIf="!isLogin"></app-header>
+<app-leftnavbar *ngIf="!isLogin"></app-leftnavbar>
+<div class="router-container" [ngStyle]="{'padding-right': (isLogin) ? '0px' : '40px'}">
+    <router-outlet></router-outlet>
+</div>
+<es-dialog></es-dialog>
