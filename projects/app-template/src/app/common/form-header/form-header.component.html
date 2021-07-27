@@ -1,0 +1,13 @@
+<div class="es-fheader-box">
+    <div class="row es-margin-null">
+        <div class="col-md-6">
+            <i [class]="iconClass" class="es-fheader-icon"></i>            
+            <span class="es-fheader-caption">{{ caption }}</span>
+        </div>
+        <div class="col-md-6">
+            <div class="header-action">
+                <ng-content select="[actions]"></ng-content>
+            </div>
+        </div>
+    </div>    
+</div>

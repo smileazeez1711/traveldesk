@@ -1,0 +1,16 @@
+.es-margin-null {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.es-fheader-box {
+    border-bottom: 1px solid #decaca;
+    height: 35px;
+}
+
+.es-fheader-caption {
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 8px;
+    color: #191616c2;
+}
